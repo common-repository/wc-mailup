@@ -1,0 +1,129 @@
+/**
+ * MailUp for WordPress - CSS
+ *
+ * @author ilGhera
+ * @package mailup-for-wc/css
+ * @version 0.9.0
+ */
+
+
+.mufwc-buttons {
+    margin-bottom: 20px;
+}
+
+.mufwc-access .mufwc-login,
+.mufwc-access .mufwc-register {
+    float: left;
+    padding: 10px 0;
+    width: 50%;
+    border-bottom: 0px;
+    font-size: 110%;
+    font-weight: bold;
+    background: #d9edf7;
+    color: #0d4355;
+    cursor: pointer;
+    text-align: center;
+}
+
+.mufwc-buttons .active {
+    background: #0d4355;
+    color: #fff;
+}
+
+.mufwc-access #customer_login {
+    padding: 20px;
+    border: 1px solid #dee0e9;
+    box-shadow: 0 2px 20px rgba(45,53,89,.1);
+}
+
+.mufwc-before-text {
+    text-align: center;
+    font-weight: bold;
+    padding: 3rem 0 1rem;
+    clear: both;
+}
+
+#mufwc-form-container span {
+    font-size: 120%;
+    text-transform: uppercase;
+    color: #FF6200;
+    display: block;
+    margin: 2rem 0;
+    text-align: center;
+}
+
+
+#mufwc-subscription-form,
+#mufwc-wordpress-form,
+#mufwc-button-container {
+    width: 600px;
+    max-width: 100%;
+    margin: 2rem auto;
+}
+
+#mufwc-subscription-form label {
+    display: block;
+}
+
+#mufwc-subscription-form input[type="text"],
+#mufwc-subscription-form input[type="email"] {
+    width: 100%;
+}
+
+#mufwc-subscription-form input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.mufwc-add-button {
+	display: block;
+	margin: 30px 0;
+	padding: 10px 20px;
+	background-color: #3b6c8d;
+	color: #fff;
+    font-weight: bold;
+    font-size: 120%;
+    text-align: center;
+	cursor: pointer;
+	border-radius: 3px;
+}
+
+#mufwc-wordpress-form #customer_login .col-1,
+#mufwc-wordpress-form #customer_login .col-2 {
+    width: 100%;
+    float: none;
+}
+
+#mufwc-wordpress-form #customer_login .col-2 {
+	display: none;
+}
+
+#mufwc-wordpress-form .wordpress-form__label.wordpress-form-login__rememberme {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.newsletter-form-button {
+    background-color: #3b6c8d;
+    margin-top: 10px;
+    padding: 10px 20px;
+    color: #fff;
+    border: 0px;
+    border-radius: 3px !important;
+    cursor: pointer;
+}
+
+.form-group.privacy {
+    line-height: 18px;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.form-group.privacy a {
+    text-decoration: underline;
+}
+
+.form-group.privacy p {
+    margin-top: 10px;
+    font-style: normal;
+    font-weight: bold;
+}
